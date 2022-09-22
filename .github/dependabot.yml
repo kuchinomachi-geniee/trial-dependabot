@@ -14,3 +14,4 @@ updates:
     directory: "/secondary/" # Location of package manifests
     schedule:
       interval: "dayly"
+    open-pull-requests-limit: 0
