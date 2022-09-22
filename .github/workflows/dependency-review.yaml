@@ -1,0 +1,9 @@
+name: "Dependency Review"
+
+on:
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "main" ]
+
+- name: Dependency Review
+  uses: actions/dependency-review-action@v2.2.0
