@@ -10,6 +10,7 @@ Django = "==4.0.5"
 flake8 = "~=4.0.1"
 pylint = "~=2.13.9"
 mccabe = ">=0.6.1"
+pytest = "~=7.1.2"
 
 [requires]
 python_version = "3.9"
