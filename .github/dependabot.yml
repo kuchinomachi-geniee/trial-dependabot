@@ -5,13 +5,13 @@
 
 version: 2
 updates:
-  - package-ecosystem: "pipenv" # See documentation for possible values
+  - package-ecosystem: "pip" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "dayly"
-      
-  - package-ecosystem: "pipenv" # See documentation for possible values
+      interval: "daily"
+
+  - package-ecosystem: "pip" # See documentation for possible values
     directory: "/secondary/" # Location of package manifests
     schedule:
-      interval: "dayly"
+      interval: "daily"
     open-pull-requests-limit: 0
