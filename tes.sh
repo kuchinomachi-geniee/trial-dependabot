@@ -1,6 +1,6 @@
 #!/bin/sh
 
-world="world"
+world="worldd"
 echo "HELLOLL"
 
 echo "${world}"
